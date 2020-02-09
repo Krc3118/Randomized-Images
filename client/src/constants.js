@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 export const QUERY_SIZE = 36;
 export const MAX_PAGE = 8;
 

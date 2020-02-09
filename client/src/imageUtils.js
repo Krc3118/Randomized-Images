@@ -45,7 +45,6 @@ async function fetchRawImages() {
   return imagesJson.photos.photo;
 }
 
-// eslint-disable-next-line import/prefer-default-export
 export async function fetchImageUrls() {
   const rawImages = await fetchRawImages();
 
